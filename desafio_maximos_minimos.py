@@ -6,8 +6,8 @@ Ahora.. si lograste realizarlo utilizando el código de muestra hasta el momento
 
 """
 contador=0
-min_numero = 999999     
-max_numero = -999999    
+min_numero = float('inf')   
+max_numero = float('-inf')   
 
 while contador < 4:
     num = int(input("ingrese un numero:"))
